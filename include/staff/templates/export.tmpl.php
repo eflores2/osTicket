@@ -57,7 +57,6 @@ $action = $info[':action'] ?: ('#');
                     var aElement = document.createElement('a');
                     aElement.href = resp.href;
                     aElement.target = '_blank';
-                    aElement.download = resp.filename;
                     aElement.click();
                     aElement.remove();
                 }
